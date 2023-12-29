@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "902557142398",
+    "project_id": "sewalahan",
+    "storage_bucket": "sewalahan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902557142398:android:24f8e6f11836f1bb5cf72f",
+        "android_client_info": {
+          "package_name": "com.example.sewalahan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "902557142398-egm3jnrr54umfqpckdaatai3pic5ggtr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sewalahan",
+            "certificate_hash": "b417cd6feb363922d283788b34cfe469cd8de8da"
+          }
+        },
+        {
+          "client_id": "902557142398-ikrjkrg6p6kigrl1oc6mjo0s1bnsfkq3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsp0HKXov9FgslwSDgikis2yVSL4jcIIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "902557142398-ikrjkrg6p6kigrl1oc6mjo0s1bnsfkq3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

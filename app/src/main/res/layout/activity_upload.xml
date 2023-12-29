@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".upload"
+    android:background="@color/green">
+
+    <TextView
+        android:id="@+id/tv_tambah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/shape"
+        android:padding="10dp"
+        android:text="Tambah Data"
+        android:textColor="@color/green2"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_gambar"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_gambar" />
+
+    <Button
+        android:id="@+id/btn_gambar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Pilih Gambar"
+        android:backgroundTint="@color/green2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_deskripsi" />
+
+    <EditText
+        android:id="@+id/et_nama"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:hint="Nama Lahan"
+        android:background="@drawable/et_shape"
+        android:elevation="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_tambah">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/et_lokasi"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:hint="Lokasi Lahan"
+        android:background="@drawable/et_shape"
+        android:elevation="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_nama">
+    </EditText>
+
+    <EditText
+        android:id="@+id/et_ukuran"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:hint="Ukuran Lahan"
+        android:background="@drawable/et_shape"
+        android:elevation="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_lokasi">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/et_harga"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/et_shape"
+        android:elevation="10dp"
+        android:hint="Harga Lahan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_ukuran">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/et_pemilik"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/et_shape"
+        android:elevation="10dp"
+        android:hint="Nama Pemilik Lahan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_harga">
+    </EditText>
+
+    <EditText
+        android:id="@+id/et_telp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/et_shape"
+        android:elevation="10dp"
+        android:hint="Nomor Telepon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_pemilik">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/et_deskripsi"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/et_shape"
+        android:elevation="10dp"
+        android:hint="Deskripsi Lahan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_telp">
+    </EditText>
+
+    <Button
+        android:id="@+id/btn_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Upload"
+        android:backgroundTint="@color/green2"
+        android:drawableRight="@drawable/upload"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_gambar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

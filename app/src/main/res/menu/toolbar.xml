@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/close"
+        android:title="Close"
+        android:icon="@drawable/back"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/admin"
+        android:title="Admin"
+        android:icon="@drawable/user"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/home"
+        app:showAsAction="always"/>
+</menu>

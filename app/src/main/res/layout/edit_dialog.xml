@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".upload">
+
+        <ImageView
+            android:id="@+id/iv_gambar"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_deskripsi" />
+
+        <EditText
+            android:id="@+id/et_nama"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:hint="Nama Lahan"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/et_lokasi"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:hint="Lokasi Lahan"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_nama">
+        </EditText>
+
+        <EditText
+            android:id="@+id/et_ukuran"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:hint="Ukuran Lahan"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_lokasi">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/et_harga"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:hint="Harga Lahan"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_ukuran">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/et_pemilik"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:hint="Nama Pemilik Lahan"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_harga">
+        </EditText>
+
+        <EditText
+            android:id="@+id/et_telp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:hint="Nomor Telepon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_pemilik">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/et_deskripsi"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:hint="Deskripsi Lahan"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_telp">
+        </EditText>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
